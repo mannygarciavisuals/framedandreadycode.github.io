@@ -1,16 +1,20 @@
 /* Importing "ANTON" font families front google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Importing "IBM Pex sans" font families front google fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 .anton-regular {
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-*{
-  background: green !important;
-}
-
-.single-column-container *{
-    background: aqua !important;
+.ibm-plex-sans-<uniquifier> {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
