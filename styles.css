@@ -10,3 +10,7 @@
 *{
   background: red !important;
 }
+
+.single-column-container *{
+    background: aqua !important;
+}
