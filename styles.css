@@ -7,7 +7,6 @@
   font-style: normal;
 }
 
-
-h3 {
-  font-family: Anton !important;
+*{
+  background: red !important;
 }
